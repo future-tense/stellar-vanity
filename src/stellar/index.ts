@@ -84,7 +84,7 @@ export function* generate(options: Options): Generator<[string, string]> {
     else {
         for (const [pubKey, privKey] of _grind(pattern, batchSize || 1280)) {
             yield [
-                encodeEd25519PublicKey(Buffer.from(pubKey)),
+                StrKey.encodeEd25519PublicKey(Buffer.from(pubKey)),
                 bytesToHex(numberToBytesBE(privKey, 32))
             ];
         }

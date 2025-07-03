@@ -17,5 +17,9 @@
     "@stellar/stellar-sdk": "^13.3.0",
     "commander": "^12.1.0",
     "crc": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
   }
 }
