@@ -13,7 +13,7 @@ npm run build
 
 ## Delegating signing
 
-After you've generated a vanity address, to actually claim it, you have to create it onchain (send XLM to it), and then  either add a regular ed25519 public key as a signer, or sign it using the Keypair provided in the npm package.
+After you've generated a vanity address, to actually claim it, you have to create it onchain (send XLM to it), and then  either add a regular ed25519 public key as a signer, or sign it using the Keypair provided in the source code.
 
 ```
 > generate --prefix GALAXY
