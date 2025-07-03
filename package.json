@@ -1,0 +1,21 @@
+{
+  "name": "@futuretense/stellar-vanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "author": "Johan Stén <johan@futuretense.io>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dest",
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@futuretense/curves": "^1.0.1",
+    "@noble/curves": "^1.9.2",
+    "@scure/base": "^1.2.4",
+    "@stellar/stellar-sdk": "^13.3.0",
+    "commander": "^12.1.0",
+    "crc": "^3.8.0"
+  }
+}
